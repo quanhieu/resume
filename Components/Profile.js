@@ -1,5 +1,10 @@
 import React from "react";
-import { Options } from "./Options";
+import dynamic from 'next/dynamic'
+import { BsMailbox2, BsTelephoneFill, BsGeoAltFill } from "react-icons/bs";
+
+const DynamicOptions = dynamic(() => import('./Options'), {
+  ssr: false,
+})
 
 export const Profile = ({
   name,
@@ -22,17 +27,28 @@ export const Profile = ({
 
         <div className="home__address bd-grid">
           <span className="home__information">
-            <i className="bx bx-map home__icon" /> {location}
+            <BsGeoAltFill style={{
+              marginRight: '0.4em',
+              fontSize: "1.4em"
+            }} /> {location}
           </span>
           <span className="home__information">
-            <i className="bx bx-envelope home__icon" /> {email}
+            <BsMailbox2 style={{
+              marginRight: '0.4em',
+              fontSize: "1.4em"
+            }} /> {email}
           </span>
           <span className="home__information">
-            <i className="bx bx-phone home__icon" /> {telephone}
+            <BsTelephoneFill  style={{
+              marginRight: '0.4em',
+              fontSize: "1.4em"
+            }}
+            />
+            {telephone}
           </span>
         </div>
       </div>
-      <Options />
+      <DynamicOptions />
     </section>
   );
 };

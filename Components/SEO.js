@@ -9,6 +9,12 @@ export const SEO = ({ name, occupation, description }) => {
       <Helmet>
         <title>{name} - {occupation}</title>
         <meta name="description" content={description} />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href='/favicon.png'
+        />
       </Helmet>
     </HelmetProvider>
   );

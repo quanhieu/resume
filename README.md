@@ -1,55 +1,34 @@
-# React Resume - Responsive and customizable CV / Resume
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-You can easily create your fully beautiful CV / Resume by passing necessary props. <br/>
-Just clone or fork the repository and edit [data.js](https://github.com/Maaato/react-resume/blob/master/src/Schemas/Data.js) inside schemas folder and build your own CV.
+## Getting Started
 
-- Light / Dark mode 🌗
-- Snowflakes mode ❄️
+First, run the development server:
 
-[Preview](https://react-resume-rho.vercel.app)
-
-## Getting Started 👋
-### Built With 🛠️
-
-- [React](https://es.reactjs.org)
-- [Boxicons](https://boxicons.com)
-- [React-particles-js](https://www.npmjs.com/package/react-particles-js)
-- [React-helmet](https://github.com/nfl/react-helmet)
-
-### Installation 🔧
-```
-$ yarn install
-> Edit Schemas/Data.js with your personal information
-```
-### Running the app 🏃
-```
-# dev mode
-$ yarn start or npm run start
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-### Features 💡
-- [Generate-CV-PDF](https://github.com/Maaato/react-resume/tree/feature/cv-pdf-generator)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## License :memo:
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-This project is [MIT](LICENCE) licensed.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-***
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-# Read more
+## Learn More
 
-[Top CV](https://www.topcv.vn/mau-cv?tab=1.0)
+To learn more about Next.js, take a look at the following resources:
 
-[hiration](https://www.hiration.com/blog/react-js-developer-resume/)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-[react-resume](https://github.com/Maaato/react-resume)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-[react-resume-template](https://github.com/tbakerx/react-resume-template)
+## Deploy on Vercel
 
-[Fake_Terminal_Resume_Website
-](https://github.com/rimijoker/Fake_Terminal_Resume_Website)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-[terminal-in-react](https://github.com/nitin42/terminal-in-react)
-
-[react-terminal-component](https://github.com/rohanchandra/react-terminal-component)
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
