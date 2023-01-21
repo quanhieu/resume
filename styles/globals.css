@@ -325,7 +325,8 @@ body.dark-theme {
 
 .social__icon {
   font-size: 1.2rem;
-  margin-right: 0.25rem;
+  margin-right: 0.4em;
+  /* margin-right: 0.25rem; */
 }
 
 .profile__description {

@@ -1,4 +1,5 @@
 import React from "react";
+import { IconContext } from "react-icons";
 
 export const SocialMedia = ({ label, social }) => {
   return (
@@ -11,8 +12,14 @@ export const SocialMedia = ({ label, social }) => {
   );
 };
 
-const Social = ({ label, url, className }) => (
+const Social = ({ label, url, className, icon }) => (
   <a href={url} target="_blank" rel="noreferrer" className="social__link">
-    <i className={`bx ${className} social__icon`}></i> {label}
+    <span className="social__icon">
+      {icon}
+    </span> {label}
+    {/* <IconContext.Provider className='social__icon'>
+      
+      {label}
+    </IconContext.Provider> */}
   </a>
 );

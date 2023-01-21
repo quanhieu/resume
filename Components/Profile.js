@@ -29,19 +29,19 @@ export const Profile = ({
           <span className="home__information">
             <BsGeoAltFill style={{
               marginRight: '0.4em',
-              fontSize: "1.4em"
+              fontSize: "1.2em"
             }} /> {location}
           </span>
           <span className="home__information">
             <BsMailbox2 style={{
               marginRight: '0.4em',
-              fontSize: "1.4em"
+              fontSize: "1.2em"
             }} /> {email}
           </span>
           <span className="home__information">
             <BsTelephoneFill  style={{
               marginRight: '0.4em',
-              fontSize: "1.4em"
+              fontSize: "1.2em"
             }}
             />
             {telephone}

@@ -1,3 +1,5 @@
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+
 export const Data = {
   profile: {
     name: "Hieu Truong",
@@ -24,6 +26,7 @@ export const Data = {
       "NoSQL",
       "Docker",
       "Bitbucket Pipelines",
+      "Github action (basic)",
       "Jenkins (basic)",
       "Ansible (basic)",
       "Terraform (basic)",
@@ -54,15 +57,36 @@ export const Data = {
         name: "linkedin",
         url: "https://linkedin.com/in/hieu-truong-quang",
         className: "bxl-linkedin-square",
+        icon: <BsLinkedin/>
       },
       {
         label: "github",
         name: "github",
         url: "https://github.com/quanhieu",
         className: "bxl-github",
+        icon: <BsGithub/>
       }
     ],
   },
+  activities: [
+    {
+      title: 'Seminal about IaC',
+      description: 'Apply Terraform Ansible to deploy WordPress on AWS',
+      at: 'We are Bloom',
+      period: '2022'
+    },
+    {
+      title: 'Contribute for open source project Domolo',
+      description: 'A monitoring and logging solution for Docker hosts and containers with Prometheus, Grafana, Loki, cAdvisor, NodeExporter and alerting with AlertManager.',
+      period: '2022'
+    },
+    {
+      title: 'Join and contribute at Hacktoberfest',
+      description: 'Contributions to open source at Hacktoberfest #9',
+      award: 'https://holopin.io/@hieutruong',
+      period: '2022'
+    }
+  ],
   workExperience: [
     {
       company: "We Are Bloom",
@@ -78,7 +102,7 @@ export const Data = {
           ],
           summary: 'Build SaaS platform Verifiable Credentials and Decentralized Identifiers',
           teamSize: 4,
-          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs - Moleculer, Postgresql, Docker, Redis, Redis pub/sub,  socketIO, Sendgrid, Azure Entra, Azure Bot, Microsoft Graph',
+          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs - Moleculer, Postgresql, Docker, Redis, Redis pub/sub, SocketIO, Sendgrid, Azure Entra, Azure Bot, Microsoft Graph',
           responsibility: [
             'Build the architecture for microservice',
             'Research and implement new feature',
@@ -101,7 +125,7 @@ export const Data = {
           ],
           // summary: 'Application with more than 1000 active users',
           teamSize: 9,
-          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs (NestJS), Python, MongoDB,  socketIO, Docker, Redis',
+          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs (NestJS), Python, MongoDB, SocketIO, Docker, Redis',
           responsibility: [
             'Rate solution and apply technologies',
             'Build the architecture for frontend',
@@ -129,7 +153,7 @@ export const Data = {
           ],
           // summary: 'Application with more than 1000 active users',
           teamSize: 5,
-          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs (Strapi, ExpressJs), Golang, socketIO, Postgresql, Docker, Nmap, GoPhish, RabbitMQ, Sendgrid, Sentry, Hotjar, Terraform, Google cloud platform (GCP), Google cloud storage (GCS)',
+          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs (Strapi, ExpressJs), Golang, SocketIO, Postgresql, Docker, Nmap, GoPhish, RabbitMQ, Sendgrid, Sentry, Hotjar, Terraform, Google cloud platform (GCP), Google cloud storage (GCS)',
           responsibility: [
             'Rate solution and apply technologies',
             'Build the architecture for microservice',
@@ -160,7 +184,7 @@ export const Data = {
             'Build mobile application',
           ],
           teamSize: 10,
-          technology: 'NextJS (Typescript), Golang (Gin - Gorm), Postgresql, PWA, Firebase, socketIO, Redis, Flutter, Docker, AWS, Terraform, Google analytics',
+          technology: 'NextJS (Typescript), Golang (Gin - Gorm), Postgresql, PWA, Firebase, SocketIO, Redis, Flutter, Docker, AWS, Terraform, Google analytics',
           responsibility: [
             'Implement features for FE and BE',
             'Maintain and optimize source code',
@@ -177,7 +201,7 @@ export const Data = {
             'Read spreadsheet files and output the contents on Antd-table like excel'
           ],
           teamSize: 10,
-          technology: 'NextJS (Typescript), Nodejs (NestJs), Postgresql, PWA, Firebase, socketIO, Flutter, AWS, Docker',
+          technology: 'NextJS (Typescript), Nodejs (NestJs), Postgresql, PWA, Firebase, SocketIO, Flutter, AWS, Docker',
           responsibility: [
             'Implement features for FE and BE',
             'Fixing bug'
@@ -206,7 +230,7 @@ export const Data = {
             'Client is from the Australian, they want to create an application that connects restaurants, customers, and drivers similar to Foody.',
           ],
           teamSize: 20,
-          technology: 'Nodejs (Fastify), MongoDB, Elasticsearch, Neo4j, Docker, Redis, ReactJs, React-native, socketIO, Kafka, AWS',
+          technology: 'Nodejs (Fastify), MongoDB, Elasticsearch, Neo4j, Docker, Redis, ReactJs, React-native, SocketIO, Kafka, AWS',
           responsibility: [
             'Implement features for BE',
             'Fixing bug',
