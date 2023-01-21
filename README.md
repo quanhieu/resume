@@ -53,3 +53,4 @@ This project is [MIT](LICENCE) licensed.
 
 [react-terminal-component](https://github.com/rohanchandra/react-terminal-component)
 
+[Deploy a Next.js app to Github Pages](https://github.com/gregrickaby/nextjs-github-pages)
