@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from 'next/dynamic'
-import { BsMailbox2, BsTelephoneFill, BsGeoAltFill } from "react-icons/bs";
+import { BsMailbox2, BsTelephoneFill, BsGeoAltFill, BsFillCalendarRangeFill, BsGenderMale } from "react-icons/bs";
 
 const DynamicOptions = dynamic(() => import('./Options'), {
   ssr: false,
@@ -12,6 +12,8 @@ export const Profile = ({
   location,
   email,
   telephone,
+  yearOfBirth,
+  sex,
   image,
 }) => {
   return (
@@ -46,6 +48,22 @@ export const Profile = ({
             />
             {telephone}
           </span>
+          <span className="home__information">
+            <BsFillCalendarRangeFill  style={{
+              marginRight: '0.4em',
+              fontSize: "1.2em"
+            }}
+            />
+            {yearOfBirth}
+          </span>
+          {/* <span className="home__information">
+            <BsGenderMale  style={{
+              marginRight: '0.4em',
+              fontSize: "1.2em"
+            }}
+            />
+            {sex}
+          </span> */}
         </div>
       </div>
       <DynamicOptions />

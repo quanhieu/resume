@@ -15,8 +15,8 @@ export default function Options () {
     console.error(`All Cookies blocked - Error: ${e.message}`);
   }
 
-  const [theme, setTheme] = useState(lsTheme || "dark");
-  const [icon, setIcon] = useState(lsIcon || "bx-sun");
+  const [theme, setTheme] = useState(lsTheme || "dark"); // light
+  const [icon, setIcon] = useState(lsIcon || "bx-sun"); // bx-moon
   const [snow, setSnow] = useState(lsSnow);
 
   useEffect(() => {

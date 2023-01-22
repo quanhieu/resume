@@ -7,6 +7,8 @@ export const Data = {
     location: "Ho Chi Minh, Vietnam",
     email: "hieutq1188@gmail.com",
     telephone: "+84 7784467",
+    yearOfBirth: "1998",
+    sex: "Male",
     image: "images/me.jpeg",
   },
   aboutMe: {
@@ -71,19 +73,20 @@ export const Data = {
   activities: [
     {
       title: 'Seminal about IaC',
-      description: 'Apply Terraform Ansible to deploy WordPress on AWS',
+      description: 'Apply Terraform Ansible to create resources and deploy WordPress on AWS',
       at: 'We are Bloom',
       period: '2022'
     },
     {
-      title: 'Contribute for open source project Domolo',
+      title: 'Contribute for open source project - Domolo',
       description: 'A monitoring and logging solution for Docker hosts and containers with Prometheus, Grafana, Loki, cAdvisor, NodeExporter and alerting with AlertManager.',
+      link: 'https://github.com/ductnn/domolo',
       period: '2022'
     },
     {
       title: 'Join and contribute at Hacktoberfest',
       description: 'Contributions to open source at Hacktoberfest #9',
-      award: 'https://holopin.io/@hieutruong',
+      link: 'https://holopin.io/@hieutruong',
       period: '2022'
     }
   ],
@@ -204,6 +207,7 @@ export const Data = {
           technology: 'NextJS (Typescript), Nodejs (NestJs), Postgresql, PWA, Firebase, SocketIO, Flutter, AWS, Docker',
           responsibility: [
             'Implement features for FE and BE',
+            'Deploy',
             'Fixing bug'
           ]
         },
@@ -219,6 +223,7 @@ export const Data = {
           responsibility: [
             'Migrate data from LDAP system to Teamcenter, by the way, using multiple threads of Nodejs',
             'Schedule cronjob to auto migrate data',
+            'Deploy',
             'Fixing bug'
           ]
         },
@@ -235,22 +240,6 @@ export const Data = {
             'Implement features for BE',
             'Fixing bug',
             'Implement CI/CD',
-          ]
-        },
-        {
-          project: 'STAY WELL',
-          period: 'March, 2019 - Jan, 2021',
-          position: 'Fullstack developer',
-          description: [
-            'Provide simple-rent house management solution.',
-          ],
-          teamSize: 3,
-          technology: 'Nodejs (ExpressJs), MongoDB, ReactJs, Redux-Saga, Redis, Sendgrid, Docker',
-          responsibility: [
-            'Build the architecture',
-            'Research and implement new feature',
-            'Implement features FE for BE',
-            'Fixing bug'
           ]
         },
       ]
@@ -333,6 +322,27 @@ export const Data = {
         }
       ]
     },
+    {
+      company: 'Stay Well',
+      projects: [
+        {
+          project: 'Rent house management',
+          period: 'March, 2019 - Jan, 2021',
+          position: 'Fullstack developer',
+          description: [
+            'Provide simple-rent house management solution.',
+          ],
+          teamSize: 3,
+          technology: 'Nodejs (ExpressJs), MongoDB, ReactJs, Redux-Saga, Redis, Sendgrid, Docker',
+          responsibility: [
+            'Build the architecture',
+            'Research and implement new feature',
+            'Implement features FE for BE',
+            'Fixing bug'
+          ]
+        },
+      ]
+    },
   ],
   experience: {
     works: [
@@ -404,7 +414,7 @@ export const Data = {
     academic: [
       {
         career: "Bachelor of Science: Computing - Information Systems",
-        date: "2019",
+        date: "2020",
         institution: "FPT Education",
       },
     ],

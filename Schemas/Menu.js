@@ -1,4 +1,4 @@
-import { BsFillHouseDoorFill, BsPeopleFill, BsPatchCheckFill, BsJournalBookmarkFill, BsFilterSquareFill, BsKanban } from "react-icons/bs";
+import { BsFillHouseDoorFill, BsPeopleFill, BsPatchCheckFill, BsJournalBookmarkFill, BsUiRadios, BsKanban } from "react-icons/bs";
 
 export const Menu = {
   menu: [
@@ -42,10 +42,10 @@ export const Menu = {
       />
     },
     {
-      label: "Summary",
-      section: "#summary",
+      label: "Activities",
+      section: "#activities",
       className: "bx-briefcase-alt",
-      icon: <BsFilterSquareFill
+      icon: <BsUiRadios
         style={{
           fontSize: "1.5em"
         }}
