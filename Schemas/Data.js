@@ -72,7 +72,7 @@ export const Data = {
   },
   activities: [
     {
-      title: 'Seminal about IaC',
+      title: 'Seminal about Infrastructure as Code (Iac)',
       description: 'Apply Terraform Ansible to create resources and deploy WordPress on AWS',
       at: 'We are Bloom',
       period: '2022'
