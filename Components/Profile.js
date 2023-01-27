@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from 'next/dynamic'
-import { BsMailbox2, BsTelephoneFill, BsGeoAltFill, BsFillCalendarRangeFill, BsGenderMale } from "react-icons/bs";
+import { BsMailbox2, BsTelephoneFill, BsGeoAltFill, BsFillCalendarRangeFill, BsCloudDownloadFill, BsGenderMale } from "react-icons/bs";
 
 const DynamicOptions = dynamic(() => import('./Options'), {
   ssr: false,
@@ -15,6 +15,7 @@ export const Profile = ({
   yearOfBirth,
   sex,
   image,
+  pdf,
 }) => {
   return (
     <section className="home" id="home">
@@ -25,6 +26,21 @@ export const Profile = ({
             <strong>{name}</strong>
           </h1>
           <h3 className="home__profession">{occupation}</h3>
+
+          <span className="home__profession">
+            <a
+              href={pdf}
+              alt="resume"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social__link"
+            >
+              <BsCloudDownloadFill style={{
+                marginRight: '0.4em',
+                fontSize: "1.2em"
+              }} /> Download PDF
+            </a>
+          </span>
         </div>
 
         <div className="home__address bd-grid">

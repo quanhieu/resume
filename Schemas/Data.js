@@ -6,10 +6,11 @@ export const Data = {
     occupation: "Software Engineer",
     location: "Ho Chi Minh, Vietnam",
     email: "hieutq1188@gmail.com",
-    telephone: "+84 7784467",
+    telephone: "+84 94 778 4467",
     yearOfBirth: "1998",
     sex: "Male",
     image: "images/me.jpeg",
+    pdf: "documents/hieu-resume.pdf",
   },
   aboutMe: {
     label: "About",
@@ -19,13 +20,13 @@ export const Data = {
   },
   skills: {
     technicalLabel: "Technical Skills",
-    softLabel: "Skills",
+    softLabel: "Soft Skills",
     technicalSkills: [
       "Javascript, Typescript - React, AngularJs, Nodejs",
       "Golang",
       "Git",
-      "SQL",
-      "NoSQL",
+      "SQL - Postgresql, Mysql",
+      "NoSQL - MongoDB, Redis",
       "Docker",
       "Bitbucket Pipelines",
       "Github action (basic)",
@@ -37,18 +38,21 @@ export const Data = {
       "GCP (basic)",
       "Kubernetes (basic)",
       "Proxy - Nginx",
-      "DNS - Cloudflare",
+      "Shell script",
+      // "DNS - Cloudflare",
+      // "SSL - Let's encrypt, OpenSSL",
     ],
     keySkills: [
-      "Analysis",
+      "Research and propose new technologies",
+      "Analyze requirements and design systems",
+      "Work in groups",
+      "Troubleshoot and debug",
       // "Suggest a solution",
       // "Critical thinking",
-      "Working in group",
-      "Research",
-      "Fullstack developer",
-      "Devops",
-      "CI/CD",
-      "IaC",
+      // "Fullstack developer",
+      // "Devops",
+      // "CI/CD",
+      // "IaC",
     ],
   },
   socialMedia: {
@@ -73,7 +77,7 @@ export const Data = {
   activities: [
     {
       title: 'Seminal about Infrastructure as Code (Iac)',
-      description: 'Apply Terraform Ansible to create resources and deploy WordPress on AWS',
+      description: 'Apply Terraform & Ansible to create resources and deploy WordPress on AWS',
       at: 'We are Bloom',
       period: '2022'
     },
@@ -92,8 +96,8 @@ export const Data = {
   ],
   workExperience: [
     {
-      company: "We Are Bloom",
-      period: "Nov. 2021 - Present",
+      company: 'We Are Bloom',
+      period: 'Nov. 2021 - Present',
       projects: [
         {
           project: 'VC-DID',
@@ -182,7 +186,7 @@ export const Data = {
           period: 'Oct. 2021 - Present',
           position: 'Fullstack developer',
           description: [
-            'Smart Road provides an e-commerce platform that includes distributes vehicle spare parts and vehicle-related support services in Vietnam',
+            'Build an e-commerce platform that includes distributes vehicle spare parts and vehicle-related support services in Vietnam',
             'Build CMS',
             'Build mobile application',
           ],
@@ -294,7 +298,7 @@ export const Data = {
           period: 'March, 2020 - May, 2020',
           position: 'Fullstack developer',
           description: [
-            'Check-In, provide services in the building, notify, make an appointment',
+            'Provide services in the building, notify, make an appointment, check-In',
           ],
           teamSize: 9,
           technology: 'React, React-native, Nodejs, NGINX, PM2',
@@ -328,7 +332,7 @@ export const Data = {
         {
           project: 'Rent house management',
           period: 'March, 2019 - Jan, 2021',
-          position: 'Fullstack developer',
+          position: 'Fullstack developer, Devops',
           description: [
             'Provide simple-rent house management solution.',
           ],
@@ -338,7 +342,8 @@ export const Data = {
             'Build the architecture',
             'Research and implement new feature',
             'Implement features FE for BE',
-            'Fixing bug'
+            'Fixing bug',
+            'Implement CI/CD',
           ]
         },
       ]
