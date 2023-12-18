@@ -34,7 +34,7 @@ export const Data = {
       "Ansible (basic)",
       "Terraform (basic)",
       "Monitoring - Prometheus, Elastic stack (basic)",
-      "AWS (basic)",
+      "AWS",
       "GCP (basic)",
       "Kubernetes (basic)",
       "Proxy - Nginx",
@@ -94,32 +94,18 @@ export const Data = {
       period: '2022'
     }
   ],
+  certifications: [
+    {
+      title: 'AWS Certified Solutions Architect Associate',
+      period: '09/2023',
+      link: 'https://www.credly.com/badges/3af52638-741c-46e6-a701-e33bb87d5d5a/public_url',
+    },
+  ],
   workExperience: [
     {
       company: 'We Are Bloom',
       period: 'Nov. 2021 - Present',
       projects: [
-        {
-          project: 'VC-DID',
-          period: 'July. 2022 - Jan. 2023',
-          position: 'Fullstack developer, Devops',
-          description: [
-            'Client from the Australia. They want to research and build a decentralized identity is an identifier for any participant in the entity in the ecosystem',
-            'System based on Microsoft Entra Verified ID to help users represent who they are in any context without referring back to centralized identity registries such as the email, password, phone, work experience, etc',
-          ],
-          summary: 'Build SaaS platform Verifiable Credentials and Decentralized Identifiers',
-          teamSize: 4,
-          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs - Moleculer, Postgresql, Docker, Redis, Redis pub/sub, SocketIO, Sendgrid, Azure Entra, Azure Bot, Microsoft Graph',
-          responsibility: [
-            'Build the architecture for microservice',
-            'Research and implement new feature',
-            'Implement features for frontend and backend',
-            'Fixing bug',
-            'Implement CI/CD',
-            'Config Proxy, SSL, DNS',
-            'Monitoring with Prometheus, Grafana, Alert manager, etc',
-          ]
-        },
         {
           project: 'Dolce Diet',
           period: 'March 2022 - Present',
@@ -147,8 +133,29 @@ export const Data = {
           ]
         },
         {
+          project: 'VC-DID',
+          period: 'July. 2022 - Jan. 2023',
+          position: 'Fullstack developer, Devops',
+          description: [
+            'Client from the Australia. They want to research and build a decentralized identity is an identifier for any participant in the entity in the ecosystem',
+            'System based on Microsoft Entra Verified ID to help users represent who they are in any context without referring back to centralized identity registries such as the email, password, phone, work experience, etc',
+          ],
+          summary: 'Build SaaS platform Verifiable Credentials and Decentralized Identifiers',
+          teamSize: 4,
+          technology: 'NextJS (Typescript), Redux toolkit, React hook-form, Nodejs - Moleculer, Postgresql, Docker, Redis, Redis pub/sub, SocketIO, Sendgrid, Azure Entra, Azure Bot, Microsoft Graph',
+          responsibility: [
+            'Build the architecture for microservice',
+            'Research and implement new feature',
+            'Implement features for frontend and backend',
+            'Fixing bug',
+            'Implement CI/CD',
+            'Config Proxy, SSL, DNS',
+            'Monitoring with Prometheus, Grafana, Alert manager, etc',
+          ]
+        },
+        {
           project: 'Continuum Cyber',
-          period: 'Nov 2021 - Present',
+          period: 'Nov 2021 - Dec 2022',
           position: 'Fullstack developer, Devops',
           description: [
             'Build a SaaS platform cyber security',
@@ -349,6 +356,13 @@ export const Data = {
       ]
     },
   ],
+  academic: [
+    {
+      career: "Bachelor of Science: Computing - Information Systems",
+      date: "2020",
+      institution: "FPT Education",
+    },
+  ],
   experience: {
     works: [
       {
@@ -414,13 +428,6 @@ export const Data = {
           "Desarrollo Java CRON para transferencia de documentos XML hacia servidor SFTP.",
           "Desarrollo Java CRON para carga de documentos PDFs hacia Azure Blob Storage.",
         ],
-      },
-    ],
-    academic: [
-      {
-        career: "Bachelor of Science: Computing - Information Systems",
-        date: "2020",
-        institution: "FPT Education",
       },
     ],
     activity: {

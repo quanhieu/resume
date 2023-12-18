@@ -10,6 +10,7 @@ import { SocialMedia } from "../Components/SocialMedia";
 import { AboutMe } from "../Components/AboutMe";
 import { Menu } from "../Components/Menu";
 import { Activities } from "../Components/Activity";
+import { Certifications } from "../Components/Certifications";
 import { SEO } from "../Components/SEO";
 import ErrorBoundary from '../Components/error-boundary'
 
@@ -35,7 +36,7 @@ export default function Home() {
     }
   }, [matches]);
 
-  const { profile, aboutMe, skills, socialMedia, experience, workExperience, activities } = dataSchema;
+  const { profile, aboutMe, skills, socialMedia, experience, workExperience, activities, certifications, academic } = dataSchema;
 
   return (
     <>
@@ -53,10 +54,11 @@ export default function Home() {
           </div>
           <div className="resume__right">
             <WorkExperiences workExperience={workExperience} />
+            <Certifications certifications={certifications} />
             <Activities activities={activities} />
+            <Academic academic={academic} />
             {/* <Works {...experience} /> */}
             {/* <Projects {...experience} /> */}
-            <Academic {...experience} />
           </div>
         </div>
       </main>
